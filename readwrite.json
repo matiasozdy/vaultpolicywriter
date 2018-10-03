@@ -1,0 +1,12 @@
+{
+  "path": {
+    "secret/*": {
+      "capabilities": [
+        "list"
+      ]
+    },
+    "secret/shared/readWrite/*": {
+      "policy": "read"
+    }
+  }
+}

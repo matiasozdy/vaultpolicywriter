@@ -1,0 +1,24 @@
+{
+  "path": {
+    "auth/token/lookup-self": {
+      "capabilities": [
+        "read"
+      ]
+    },
+    "sys/capabilities-self": {
+      "capabilities": [
+        "update"
+      ]
+    },
+    "sys/mounts": {
+      "capabilities": [
+        "read"
+      ]
+    },
+    "sys/auth": {
+      "capabilities": [
+        "read"
+      ]
+    }
+  }
+}

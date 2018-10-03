@@ -1,0 +1,18 @@
+{
+  "path": {
+    "secret/*": {
+      "capabilities": [
+        "list"
+      ]
+    },
+    "secret/dam-in-secrets/*": {
+      "capabilities": [
+        "create",
+        "read",
+        "update",
+        "delete",
+        "list"
+      ]
+    }
+  }
+}

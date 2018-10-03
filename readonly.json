@@ -1,0 +1,21 @@
+{
+  "path": {
+    "secret/*": {
+      "capabilities": [
+        "list"
+      ]
+    },
+    "secret/shared/readOnly/*": {
+      "capabilities": [
+        "read",
+        "list"
+      ]
+    },
+    "secret/secdev-secrets/*": {
+      "capabilities": [
+        "read",
+        "list"
+      ]
+    }
+  }
+}
